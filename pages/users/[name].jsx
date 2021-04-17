@@ -2,7 +2,7 @@ import fetch from 'isomorphic-unfetch';
 
 const name = ({ user }) => {
   const username = user?.name;
-  return <div>{username}</div>;
+  return <div>hello {username}</div>;
 };
 
 export const getServerSideProps = async ({ query }) => {
